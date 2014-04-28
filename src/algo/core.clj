@@ -5,7 +5,7 @@
   (loop [l left
          r right
          result []]
-    (println "ms:" l r result)
+    ;; (println "ms:" l r result)
     (if (and (empty? l)
           (empty? r))
       result
